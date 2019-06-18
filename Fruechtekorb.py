@@ -3,11 +3,20 @@
 from Frucht import *
 import random
 import time
+import signal
+import sys
 from Zirkus import *
 from Asciipicture import *
 
 easteregg=""
 a=Asciipicture('mi')
+
+def signal_handler(sig, frame):
+    print("")
+    a.asciiskullded()
+    print("Ein Zirkus musste sterben.\n")
+    sys.exit(0)
+signal.signal(signal.SIGINT, signal_handler)
 
 while easteregg !="jupi":
 
