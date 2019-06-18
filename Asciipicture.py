@@ -134,7 +134,7 @@ class Asciipicture():
         print(" ((    ) __________ (    ))   ")
         print("((      (          )      ))  ")
         print("||     (            )     ||  ")
-        print("((    (  O        O  )    ))  ")
+        print("((    (  o\      /o  )    ))  ")
         print(" ((   (   |      |   )    ))  ")
         print("  (    (  |      |  )    )    ")
         print("   (    )  |    |  (    )     ")
@@ -147,6 +147,18 @@ class Asciipicture():
         print("           ([][])             ")
         time.sleep(2)
         print("(ELEPHANT)")
+
+    def asciisnake(self):
+        print("  []             _____            ")
+        print(" [||]           / v v \    ")
+        print("  []            \  ---<         ")
+        print("  .=.            \.../       ")
+        print("  .=.      ==    ,=,                ")
+        print("   .=.   ====== ,=,                  ")
+        print("     .=.=========                    ")
+        print("---------------------------       ")
+        time.sleep(2)
+        print("(SNAKE)") 
 
     def asciigameover(self):
         print("\033[38;5;204m   ___   _              __     ___         __  __  \033[0m")
