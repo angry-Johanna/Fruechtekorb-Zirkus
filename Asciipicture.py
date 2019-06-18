@@ -115,18 +115,26 @@ class Asciipicture():
         print("")
 
     def asciiaffe(self):
-        print("            ()")
-        print("　　　　　　　 ＼＼")
-        print("　　　　　　　 ／　 ）")
-        print("[]＼＿／￣￣￣　 ／")
-        print("　＼＿／°_o °（")
-        print("　　　）　　   ／⌒＼")
-        print("　　／　 ＿＿＿／⌒＼[]")
-        print("　（　 /")
-        print("　　＼ |")
+        print("         ()")
+        print("　　　　 \ \ ")
+        print("　　　_ _ / ）")
+        print("[]\__/　 / ")
+        print("　\_/°_o °（")
+        print("　　）　 ( _ /⌒\ ")
+        print("　 /　 _ _ _/⌒\[]")
+        print("　（  /")
+        print("　　\ |")
         print("     U")
         time.sleep(2)
         print("(AFFE)")
+
+    def asciielephant(self):
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
 
     def asciigameover(self):
         print("\033[38;5;204m   ___   _              __     ___         __  __  \033[0m")
