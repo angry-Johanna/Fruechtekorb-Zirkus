@@ -87,9 +87,9 @@ while easteregg !="jupi":
                     print("\nDer Zirkus hat nicht ueberlebt.")
                     a.asciiskullded()
                 if not x.dedoraliv2:
-                        print("\nWegen deiner Unbedachten falschen Eingabe gab es eine Invasion der Ostschweizer.")
+                        print("\nWegen deiner Unbedachten falschen Eingabe vertrampelte ein Elefant der Zirkus.")
                         time.sleep(1)
-                        a.asciikommunist()
+                        a.asciielephant()
                         time.sleep(1)
                         print("Der Zirkus hat nicht ueberlebt.")
                         time.sleep(1)
